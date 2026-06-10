@@ -1,0 +1,68 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d14"/>
+      <stop offset="50%" style="stop-color:#1a0a14"/>
+      <stop offset="100%" style="stop-color:#08080c"/>
+    </linearGradient>
+    <filter id="glow2"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg3)"/>
+  <!-- Stage floor -->
+  <rect x="0" y="380" width="1200" height="250" fill="#0a0a12"/>
+  <line x1="0" y1="380" x2="1200" y2="380" stroke="#e63946" stroke-width="2" opacity="0.4"/>
+  <!-- Health bars -->
+  <rect x="50" y="30" width="450" height="24" rx="2" fill="#1a1a2e" stroke="rgba(230,57,70,0.3)"/>
+  <rect x="50" y="30" width="320" height="24" rx="2" fill="url(#red)"/>
+  <text x="70" y="48" font-family="Orbitron" font-size="11" fill="#fff" font-weight="700">KASUMI</text>
+  <rect x="700" y="30" width="450" height="24" rx="2" fill="#1a1a2e" stroke="rgba(0,240,255,0.3)"/>
+  <rect x="830" y="30" width="320" height="24" rx="2" fill="#00f0ff" opacity="0.8"/>
+  <text x="1110" y="48" font-family="Orbitron" font-size="11" fill="#fff" font-weight="700" text-anchor="end">HAYABUSA</text>
+  <!-- Timer -->
+  <rect x="560" y="25" width="80" height="35" rx="2" fill="#1a1a2e" stroke="rgba(255,215,0,0.5)"/>
+  <text x="600" y="50" text-anchor="middle" font-family="Orbitron" font-size="20" fill="#ffd700" font-weight="900">47</text>
+  <!-- Break gauge -->
+  <rect x="50" y="65" width="200" height="8" rx="1" fill="#1a1a2e"/>
+  <rect x="50" y="65" width="160" height="8" rx="1" fill="#e63946"/>
+  <rect x="950" y="65" width="200" height="8" rx="1" fill="#1a1a2e"/>
+  <rect x="950" y="65" width="120" height="8" rx="1" fill="#00f0ff"/>
+  <!-- Fighter 1 action -->
+  <g transform="translate(350,180)">
+    <path d="M60,200 L50,170 L30,130 L40,90 L55,60 L70,40 L80,20 L90,40 L110,70 L100,100 L90,130 L95,170 L85,200 Z" fill="#e63946" opacity="0.7" filter="url(#glow2)"/>
+    <circle cx="80" cy="15" r="15" fill="#e63946" opacity="0.5"/>
+    <line x1="110" y1="70" x2="160" y2="50" stroke="#e63946" stroke-width="4" opacity="0.8" stroke-linecap="round"/>
+    <line x1="90" y1="130" x2="140" y2="150" stroke="#e63946" stroke-width="4" opacity="0.8" stroke-linecap="round"/>
+  </g>
+  <!-- Fighter 2 action -->
+  <g transform="translate(700,170)">
+    <path d="M60,210 L45,180 L25,140 L35,95 L50,65 L65,45 L80,30 L95,50 L115,80 L105,110 L95,140 L100,180 L90,210 Z" fill="#00f0ff" opacity="0.6" filter="url(#glow2)"/>
+    <circle cx="80" cy="25" r="15" fill="#00f0ff" opacity="0.4"/>
+    <line x1="25" y1="140" x2="-20" y2="120" stroke="#00f0ff" stroke-width="4" opacity="0.7" stroke-linecap="round"/>
+    <line x1="45" y1="180" x2="0" y2="200" stroke="#00f0ff" stroke-width="4" opacity="0.7" stroke-linecap="round"/>
+  </g>
+  <!-- Impact effect -->
+  <circle cx="580" cy="260" r="40" fill="rgba(255,215,0,0.2)" filter="url(#glow2)"/>
+  <circle cx="580" cy="260" r="20" fill="rgba(255,255,255,0.3)"/>
+  <!-- Combo text -->
+  <text x="580" y="160" text-anchor="middle" font-family="Orbitron" font-size="28" fill="#ffd700" font-weight="900" filter="url(#glow2)">72 DMG</text>
+  <text x="580" y="185" text-anchor="middle" font-family="Orbitron" font-size="12" fill="#ff2d6b" letter-spacing="4">CRITICAL BURST!</text>
+  <!-- Input display -->
+  <g transform="translate(350,440)">
+    <rect width="500" height="50" rx="3" fill="rgba(20,20,32,0.9)" stroke="rgba(230,57,70,0.2)"/>
+    <rect x="20" y="10" width="40" height="30" rx="3" fill="#141420" stroke="rgba(230,57,70,0.4)"/>
+    <text x="40" y="31" text-anchor="middle" font-family="Orbitron" font-size="11" fill="#e63946">6P</text>
+    <rect x="75" y="10" width="40" height="30" rx="3" fill="#141420" stroke="rgba(230,57,70,0.4)"/>
+    <text x="95" y="31" text-anchor="middle" font-family="Orbitron" font-size="11" fill="#e63946">P</text>
+    <rect x="130" y="10" width="55" height="30" rx="3" fill="#141420" stroke="rgba(230,57,70,0.4)"/>
+    <text x="157" y="31" text-anchor="middle" font-family="Orbitron" font-size="11" fill="#e63946">6PK</text>
+    <rect x="200" y="10" width="55" height="30" rx="3" fill="#141420" stroke="rgba(230,57,70,0.4)"/>
+    <text x="227" y="31" text-anchor="middle" font-family="Orbitron" font-size="11" fill="#e63946">236P</text>
+    <rect x="270" y="10" width="40" height="30" rx="3" fill="rgba(230,57,70,0.15)" stroke="rgba(255,215,0,0.6)"/>
+    <text x="290" y="31" text-anchor="middle" font-family="Orbitron" font-size="11" fill="#ffd700">CB!</text>
+    <text x="380" y="31" font-family="Exo 2" font-size="12" fill="#6e6e82">Kasumi Advanced Combo</text>
+  </g>
+  <!-- 60fps badge -->
+  <rect x="1050" y="560" width="120" height="40" rx="4" fill="rgba(20,20,32,0.9)" stroke="rgba(0,240,255,0.4)"/>
+  <text x="1110" y="578" text-anchor="middle" font-family="Orbitron" font-size="10" fill="#00f0ff">60 FPS</text>
+  <text x="1110" y="593" text-anchor="middle" font-family="Orbitron" font-size="8" fill="#6e6e82">SWITCH 2</text>
+</svg>

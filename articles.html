@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Articles &amp; Guides | DOA6 Last Round Guide</title>
+<meta name="description" content="In-depth articles, guides, and analysis for Dead or Alive 6 Last Round. Character strategies, platform guides, tips, and competitive insights.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.articles-list{max-width:900px;margin:0 auto;padding:6rem 1.5rem 4rem}
+.article-card{display:flex;gap:2rem;background:var(--bg-card);border:1px solid rgba(230,57,70,.1);padding:2rem;margin-bottom:1.5rem;transition:all .4s;text-decoration:none;overflow:hidden;position:relative}
+.article-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg,var(--accent-red),var(--accent-pink));opacity:0;transition:opacity .3s}
+.article-card:hover{border-color:rgba(230,57,70,.3);transform:translateX(4px);box-shadow:0 10px 40px rgba(0,0,0,.3)}
+.article-card:hover::before{opacity:1}
+.article-card-img{width:220px;min-width:220px;height:140px;border-radius:4px;overflow:hidden;flex-shrink:0;background:var(--bg-surface)}
+.article-card-img img{width:100%;height:100%;object-fit:cover}
+.article-card-body{flex:1;display:flex;flex-direction:column;justify-content:center}
+.article-card-tag{font-family:var(--font-display);font-size:.55rem;letter-spacing:.2em;color:var(--accent-cyan);text-shadow:var(--glow-cyan);margin-bottom:.5rem}
+.article-card-body h2{font-family:var(--font-text);font-size:1.2rem;font-weight:700;color:var(--text-bright);margin-bottom:.6rem;line-height:1.4}
+.article-card-body p{font-family:var(--font-text);font-size:.9rem;color:var(--text-muted);line-height:1.7;margin-bottom:.8rem}
+.article-card-meta{font-family:var(--font-text);font-size:.8rem;color:var(--text-muted);opacity:.6;display:flex;gap:1.5rem}
+@media(max-width:768px){
+  .article-card{flex-direction:column}
+  .article-card-img{width:100%;min-width:100%;height:180px}
+}
+</style>
+</head>
+<body>
+
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">DOA6 LAST ROUND <span>ULTIMATE GUIDE</span></a>
+    <button class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="roster.html">ROSTER</a></li>
+      <li><a href="combos.html">COMBOS</a></li>
+      <li><a href="mechanics.html">MECHANICS</a></li>
+      <li><a href="tier.html">TIER LIST</a></li>
+      <li><a href="videos.html">VIDEOS</a></li>
+      <li><a href="articles.html" class="active">ARTICLES</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-content">
+    <div class="page-header-tag">KNOWLEDGE BASE</div>
+    <h1>ARTICLES &amp; <span class="red">GUIDES</span></h1>
+    <div class="page-header-line"></div>
+    <p class="page-header-desc">In-depth articles, platform guides, character breakdowns, and competitive analysis for Dead or Alive 6 Last Round.</p>
+  </div>
+</div>
+
+<div class="articles-list">
+
+  <a href="articles/doa6-last-round-switch-2.html" class="article-card reveal">
+    <div class="article-card-img">
+      <img src="images/doa6-switch2-hero.svg" alt="DOA6 Last Round Switch 2 Guide">
+    </div>
+    <div class="article-card-body">
+      <div class="article-card-tag">PLATFORM GUIDE</div>
+      <h2>Dead or Alive 6 Last Round on Nintendo Switch 2: The Complete Guide</h2>
+      <p>Everything you need to know about DOA6 Last Round on Switch 2 - full roster, gameplay mechanics, performance details, online features, and essential tips for new players.</p>
+      <div class="article-card-meta">
+        <span>June 9, 2026</span>
+        <span>14 min read</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Future articles go here -->
+
+</div>
+
+<footer>
+  <div class="footer-logo">DOA6 LAST ROUND - ULTIMATE GUIDE</div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="roster.html">Roster</a>
+    <a href="combos.html">Combos</a>
+    <a href="mechanics.html">Mechanics</a>
+    <a href="tier.html">Tier List</a>
+    <a href="videos.html">Videos</a>
+  </div>
+  <p class="footer-copy">DEAD OR ALIVE 6 LAST ROUND Ultimate Guide &copy; <span id="copyright-year"></span></p>
+  <p class="footer-disclaimer">This is a fan-made strategy guide and is not affiliated with KOEI TECMO.</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('copyright-year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

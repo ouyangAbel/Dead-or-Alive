@@ -1,0 +1,44 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#08080c"/>
+      <stop offset="50%" style="stop-color:#1a0a14"/>
+      <stop offset="100%" style="stop-color:#0a1018"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e63946"/>
+      <stop offset="100%" style="stop-color:#ff2d6b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Grid lines -->
+  <g opacity="0.06" stroke="#e63946" stroke-width="1">
+    <line x1="0" y1="0" x2="1200" y2="630"/><line x1="200" y1="0" x2="1200" y2="500"/>
+    <line x1="400" y1="0" x2="1200" y2="370"/><line x1="0" y1="200" x2="1200" y2="630"/>
+    <line x1="0" y1="400" x2="800" y2="630"/><line x1="600" y1="0" x2="0" y2="630"/>
+    <line x1="800" y1="0" x2="200" y2="630"/><line x1="1000" y1="0" x2="400" y2="630"/>
+  </g>
+  <!-- Radial glow -->
+  <circle cx="350" cy="400" r="300" fill="rgba(230,57,70,0.08)"/>
+  <circle cx="850" cy="250" r="250" fill="rgba(0,240,255,0.05)"/>
+  <!-- Fighter silhouettes -->
+  <g transform="translate(280,120)" opacity="0.9">
+    <path d="M80,400 L60,350 L40,280 L50,200 L70,150 L90,120 L100,80 L110,120 L130,150 L140,200 L160,160 L180,140 L200,160 L180,200 L170,250 L160,280 L170,350 L180,400 Z" fill="#e63946" opacity="0.3"/>
+    <path d="M90,400 L80,340 L70,270 L80,190 L95,130 L105,90 L115,130 L140,190 L150,270 L145,340 L140,400 Z" fill="#e63946" opacity="0.5"/>
+  </g>
+  <g transform="translate(700,100)" opacity="0.9">
+    <path d="M80,420 L50,360 L30,280 L40,200 L60,150 L80,100 L100,80 L120,100 L140,150 L160,200 L180,160 L200,180 L190,220 L170,280 L180,360 L170,420 Z" fill="#00f0ff" opacity="0.25"/>
+    <path d="M90,420 L70,350 L60,270 L70,190 L90,130 L110,90 L130,130 L150,190 L155,270 L145,350 L130,420 Z" fill="#00f0ff" opacity="0.4"/>
+  </g>
+  <!-- Clash effect -->
+  <circle cx="600" cy="300" r="60" fill="none" stroke="#ffd700" stroke-width="2" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="600" cy="300" r="30" fill="rgba(255,215,0,0.15)"/>
+  <!-- Text -->
+  <text x="600" y="520" text-anchor="middle" font-family="Orbitron,sans-serif" font-weight="900" font-size="42" fill="#ffffff" filter="url(#glow)">DEAD OR ALIVE 6</text>
+  <text x="600" y="565" text-anchor="middle" font-family="Orbitron,sans-serif" font-weight="700" font-size="24" fill="#e63946">LAST ROUND - NINTENDO SWITCH 2</text>
+  <text x="600" y="600" text-anchor="middle" font-family="Exo 2,sans-serif" font-weight="300" font-size="14" fill="#6e6e82" letter-spacing="4">THE DEFINITIVE FIGHTING EXPERIENCE</text>
+</svg>
