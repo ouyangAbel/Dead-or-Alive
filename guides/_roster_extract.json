@@ -1,0 +1,134 @@
+[
+  {
+    "name": "KASUMI",
+    "style": "Mugen Tenshin Ninjutsu",
+    "tier": "S",
+    "slug": "kasumi"
+  },
+  {
+    "name": "HAYABUSA",
+    "style": "Hayabusa Ninjutsu",
+    "tier": "S",
+    "slug": "hayabusa"
+  },
+  {
+    "name": "AYANE",
+    "style": "Tenshin Ninjutsu",
+    "tier": "S",
+    "slug": "ayane"
+  },
+  {
+    "name": "MARIE ROSE",
+    "style": "Systema",
+    "tier": "S",
+    "slug": "marie-rose"
+  },
+  {
+    "name": "JANN LEE",
+    "style": "Jeet Kune Do",
+    "tier": "A",
+    "slug": "jann-lee"
+  },
+  {
+    "name": "HITOMI",
+    "style": "Karate",
+    "tier": "A",
+    "slug": "hitomi"
+  },
+  {
+    "name": "TINA",
+    "style": "Pro Wrestling",
+    "tier": "A",
+    "slug": "tina"
+  },
+  {
+    "name": "BAYMAN",
+    "style": "Combat Sambo",
+    "tier": "A",
+    "slug": "bayman"
+  },
+  {
+    "name": "RIG",
+    "style": "Taekwondo",
+    "tier": "A",
+    "slug": "rig"
+  },
+  {
+    "name": "HELENA",
+    "style": "Pi Qua Quan",
+    "tier": "A",
+    "slug": "helena"
+  },
+  {
+    "name": "ZACK",
+    "style": "Muay Thai",
+    "tier": "B",
+    "slug": "zack"
+  },
+  {
+    "name": "BASS",
+    "style": "Pro Wrestling",
+    "tier": "B",
+    "slug": "bass"
+  },
+  {
+    "name": "MILA",
+    "style": "MMA",
+    "tier": "B",
+    "slug": "mila"
+  },
+  {
+    "name": "CHRISTIE",
+    "style": "She Quan",
+    "tier": "B",
+    "slug": "christie"
+  },
+  {
+    "name": "KOKORO",
+    "style": "Ba Ji Quan",
+    "tier": "B",
+    "slug": "kokoro"
+  },
+  {
+    "name": "ELIOT",
+    "style": "Xing Yi Quan",
+    "tier": "B",
+    "slug": "eliot"
+  },
+  {
+    "name": "LEIFANG",
+    "style": "Tai Chi Quan",
+    "tier": "B",
+    "slug": "leifang"
+  },
+  {
+    "name": "BRAD WONG",
+    "style": "Drunken Fist",
+    "tier": "B",
+    "slug": "brad-wong"
+  },
+  {
+    "name": "LEON",
+    "style": "Combat Sambo",
+    "tier": "B",
+    "slug": "leon"
+  },
+  {
+    "name": "HAYATE",
+    "style": "Mugen Tenshin Ninjutsu",
+    "tier": "A",
+    "slug": "hayate"
+  },
+  {
+    "name": "LISA",
+    "style": "La Mariposa",
+    "tier": "A",
+    "slug": "lisa"
+  },
+  {
+    "name": "ALPHA-152",
+    "style": "Modified Mugen Tenshin",
+    "tier": "A",
+    "slug": "alpha-152"
+  }
+]

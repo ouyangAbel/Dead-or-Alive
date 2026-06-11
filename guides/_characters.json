@@ -1,0 +1,2444 @@
+[
+  {
+    "name": "KASUMI",
+    "style": "Mugen Tenshin Ninjutsu",
+    "tier": "S",
+    "slug": "kasumi",
+    "archetype": "fast rushdown with elite whiff punishment",
+    "range": "short to mid",
+    "strengths": [
+      "extremely fast checks",
+      "strong juggle starters",
+      "great mobility",
+      "consistent wall carry"
+    ],
+    "weaknesses": [
+      "needs clean hits to snowball",
+      "predictable offense can be challenged",
+      "limited armored options",
+      "can be checked by patient mid-range play"
+    ],
+    "beginner": [
+      "safe jab string",
+      "mid check into pressure",
+      "launcher into simple finisher",
+      "throw after guard"
+    ],
+    "advanced": [
+      "whiff punish routing",
+      "delayed stagger throws",
+      "optimized wall enders",
+      "sidestep callout conversions"
+    ],
+    "strat": "Play Kasumi as a fast mid-range pest who chips away with quick checks, then explodes once you read a mistake.",
+    "matchup_tip": "Force opponents to swing first, then whiff punish and carry them toward the wall.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fastest check at i9. Use it to interrupt pressure and confirm into strings."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid poke with good range. Essential for checking opponents who duck."
+      },
+      {
+        "name": "66K (Rushing Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range. Slightly minus on block but pushes back."
+      },
+      {
+        "name": "4P (Spinning Backfist)",
+        "notation": "4P",
+        "desc": "Counter-hit launcher. Use it to catch impatient opponents pressing buttons."
+      },
+      {
+        "name": "H+K (Axe Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick that wall splats. Great ender near the wall."
+      },
+      {
+        "name": "236T (Teleport Throw)",
+        "notation": "236T",
+        "desc": "Command throw with side switch. Use it after conditioning opponents to block."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic Launcher",
+        "route": "Launcher > P > 6P > 66K~P (45 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Confirm",
+        "route": "CH 4P > P > 6P > PP6P > 66K~P (52 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > 6P > H+K (55 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage Route",
+        "route": "Launcher > P > 4P > PP6P > 66K~P > S! > 66K~P (62 dmg)",
+        "difficulty": "Hard"
+      },
+      {
+        "name": "Critical Burst Route",
+        "route": "6P > P > 6P (CB) > 7K > PP6P > 66K~P (68 dmg)",
+        "difficulty": "Medium"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Hayabusa",
+        "advice": "Respect his throw range. Use fast mids to check his approach."
+      },
+      {
+        "vs": "Tina",
+        "advice": "Stay mobile and avoid staying in throw range."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Do not let him set up armored reads."
+      },
+      {
+        "vs": "Helena",
+        "advice": "Challenge her stance transitions with quick mids."
+      }
+    ]
+  },
+  {
+    "name": "HAYABUSA",
+    "style": "Hayabusa Ninjutsu",
+    "tier": "S",
+    "slug": "hayabusa",
+    "archetype": "explosive mix-up specialist with high reward",
+    "range": "short to mid",
+    "strengths": [
+      "very high combo damage",
+      "strong throw game",
+      "dangerous pressure resets",
+      "great stage carry"
+    ],
+    "weaknesses": [
+      "committal defense",
+      "needs reads to close rounds",
+      "momentum-dependent",
+      "can struggle against patient keep-out"
+    ],
+    "beginner": [
+      "safe string into pressure",
+      "basic launcher combo",
+      "grab after plus frames",
+      "simple wall ender"
+    ],
+    "advanced": [
+      "command throw conditioning",
+      "delayed low/mid resets",
+      "burst routing for round close",
+      "stage-specific optimization"
+    ],
+    "strat": "Build fear with fast pokes and throws, then cash out big once the opponent starts guessing wrong.",
+    "matchup_tip": "Use movement to make opponents hesitate, then force throw/launcher situations near the wall.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Your primary interrupt tool and string starter."
+      },
+      {
+        "name": "6P (Elbow Strike)",
+        "notation": "6P",
+        "desc": "Fast mid check. Use it to stop opponents from ducking."
+      },
+      {
+        "name": "4T (Izuna Drop)",
+        "notation": "4T",
+        "desc": "Signature command throw with massive damage. Use after conditioning blocks."
+      },
+      {
+        "name": "66K (Sliding Kick)",
+        "notation": "66K",
+        "desc": "Long-range approach tool. Slightly unsafe on block, use with care."
+      },
+      {
+        "name": "214P (Wind Blade)",
+        "notation": "214P",
+        "desc": "Special mid with good range. Useful for catching sidesteps."
+      },
+      {
+        "name": "H+K (Spinning Heel)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Good for pressure resets and wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K~P (48 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Izuna Drop Setup",
+        "route": "6P > P > 6P (stun) > 4T (58 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Carry",
+        "route": "Launcher > P > 6P > 66K > 6P > H+K (55 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage",
+        "route": "CH 4P > P > 4P > 66K~P > S! > 4T (72 dmg)",
+        "difficulty": "Hard"
+      },
+      {
+        "name": "Critical Burst Route",
+        "route": "6P > P > 6P (CB) > 7K > 66K~P > S! > 4T (78 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Respect her speed. Use longer-range tools to control spacing."
+      },
+      {
+        "vs": "Bass",
+        "advice": "Stay mobile and do not let him grab you."
+      },
+      {
+        "vs": "Leifang",
+        "advice": "Avoid being predictable with strings. Mix timings."
+      },
+      {
+        "vs": "Jann Lee",
+        "advice": "Both want to whiff punish. Play patient."
+      }
+    ]
+  },
+  {
+    "name": "AYANE",
+    "style": "Tenshin Ninjutsu",
+    "tier": "S",
+    "slug": "ayane",
+    "archetype": "evasive mix-up character with strong back-turn stance",
+    "range": "short to mid",
+    "strengths": [
+      "excellent evasion",
+      "strong stance pressure",
+      "hard to pin down",
+      "solid counter-hit reward"
+    ],
+    "weaknesses": [
+      "execution-sensitive routes",
+      "awkward defensive decisions",
+      "needs reads against patient guard",
+      "risk/reward imbalance if predictable"
+    ],
+    "beginner": [
+      "safe mid check",
+      "launcher into air route",
+      "quick spacing reset",
+      "simple throw after plus frames"
+    ],
+    "advanced": [
+      "back-turn stance mix-ups",
+      "delayed low launcher conversion",
+      "whiff punish routing",
+      "wall carry optimization"
+    ],
+    "strat": "Frustrate the opponent with movement and stance transitions, then convert small wins into big knockdowns.",
+    "matchup_tip": "Against aggressive players pivot into evasive counters; against patient players layer throws with delayed mids.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast jab at i9. Essential for interrupting pressure."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Core neutral tool."
+      },
+      {
+        "name": "66K (Cartwheel Kick)",
+        "notation": "66K",
+        "desc": "Approach tool that transitions into back-turn stance."
+      },
+      {
+        "name": "BT P+K (Back-Turn Power Punch)",
+        "notation": "BT P+K",
+        "desc": "Strong back-turn launcher. Core mix-up tool."
+      },
+      {
+        "name": "236K (Spinning Low Kick)",
+        "notation": "236K",
+        "desc": "Low poke that catches standing guards."
+      },
+      {
+        "name": "4K (Roundhouse)",
+        "notation": "4K",
+        "desc": "Safe mid kick with good range. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (46 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Back-Turn Route",
+        "route": "BT P+K > P > 6P > 66K (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > 4K (52 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4K > P > 6P > 66K > BT P+K (58 dmg)",
+        "difficulty": "Hard"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > BT P+K (65 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use evasion to make her whiff, then punish."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Stay mobile and avoid his throw range."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range with 66K approaches."
+      },
+      {
+        "vs": "Marie Rose",
+        "advice": "Both are evasive. Focus on mids."
+      }
+    ]
+  },
+  {
+    "name": "MARIE ROSE",
+    "style": "Systema",
+    "tier": "S",
+    "slug": "marie-rose",
+    "archetype": "compact mix-up fighter with tricky evasion",
+    "range": "short to mid",
+    "strengths": [
+      "strong small-body evasion",
+      "easy stagger pressure",
+      "consistent throw mix-ups",
+      "annoying defense checks"
+    ],
+    "weaknesses": [
+      "lower raw damage",
+      "needs repeated neutral wins",
+      "can struggle against smothering pressure",
+      "requires patience"
+    ],
+    "beginner": [
+      "safe poke string",
+      "low check into pressure",
+      "basic throw after guard",
+      "launcher into simple finisher"
+    ],
+    "advanced": [
+      "delay timing resets",
+      "launcher after conditioning blocks",
+      "sidestep conversions",
+      "meter-aware enders"
+    ],
+    "strat": "Play for volume. Rack up small wins and wrong guesses until the round snowballs.",
+    "matchup_tip": "Stay annoying, stay safe, and keep forcing decisions until the opponent becomes predictable.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt and string starter."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid poke. Use it to check ducking opponents."
+      },
+      {
+        "name": "236T (Phantom Roll Throw)",
+        "notation": "236T",
+        "desc": "Command throw with evasion. Great after conditioning blocks."
+      },
+      {
+        "name": "66K (Rush Kick)",
+        "notation": "66K",
+        "desc": "Approach tool. Safe enough for pressure."
+      },
+      {
+        "name": "4P (Back Fist)",
+        "notation": "4P",
+        "desc": "Counter-hit tool. Catches impatient opponents."
+      },
+      {
+        "name": "H+K (Heel Drop)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Good for ending pressure safely."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (42 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (48 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (48 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Command Throw Setup",
+        "route": "6P (blocked) > 236T (45 dmg throw)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (58 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Hayabusa",
+        "advice": "Use your small body to evade his approaches."
+      },
+      {
+        "vs": "Bass",
+        "advice": "Stay aggressive and do not let him set up armored reads."
+      },
+      {
+        "vs": "Tina",
+        "advice": "Match her throw game with your own."
+      },
+      {
+        "vs": "Kasumi",
+        "advice": "Both fast. Focus on safe pressure."
+      }
+    ]
+  },
+  {
+    "name": "JANN LEE",
+    "style": "Jeet Kune Do",
+    "tier": "A",
+    "slug": "jann-lee",
+    "archetype": "sharp striker who punishes sloppy offense",
+    "range": "short to mid",
+    "strengths": [
+      "strong counter-hit tools",
+      "great whiff punishment",
+      "solid clean-hit damage",
+      "good wall pressure"
+    ],
+    "weaknesses": [
+      "reads can be committal",
+      "checked by patient low-risk offense",
+      "needs spacing discipline",
+      "can struggle if momentum stalls"
+    ],
+    "beginner": [
+      "fast check string",
+      "mid poke control",
+      "launcher into finisher",
+      "simple wall ender"
+    ],
+    "advanced": [
+      "counter-hit fishing",
+      "whiff punish routing",
+      "plus-frame conditioning",
+      "stage-aware damage paths"
+    ],
+    "strat": "Control the pace, make them press at the wrong time, and convert their mistakes into big damage.",
+    "matchup_tip": "Against hyper-aggressive opponents, focus on fast checks and whiff punishes instead of forcing offense first.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Primary interrupt tool."
+      },
+      {
+        "name": "6P (Straight Punch)",
+        "notation": "6P",
+        "desc": "Fast mid punch. Essential for checking opponents."
+      },
+      {
+        "name": "46P (Dragon Fist)",
+        "notation": "46P",
+        "desc": "Powerful counter-hit tool. High reward on correct reads."
+      },
+      {
+        "name": "66K (Dragon Charge)",
+        "notation": "66K",
+        "desc": "Approach tool with forward momentum."
+      },
+      {
+        "name": "H+K (Spinning Hook Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats for combo extensions."
+      },
+      {
+        "name": "236K (Dragon Sweep)",
+        "notation": "236K",
+        "desc": "Low poke that catches standing guards."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (47 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Confirm",
+        "route": "CH 46P > P > 6P > 66K (55 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K > 66K (58 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Clean Hit Route",
+        "route": "Clean Hit 66K > P > 6P > 66K (52 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > 46P > 66K (68 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Hayabusa",
+        "advice": "Both want to whiff punish. Play patient."
+      },
+      {
+        "vs": "Hitomi",
+        "advice": "Respect her mid pressure. Use your range advantage."
+      },
+      {
+        "vs": "Kasumi",
+        "advice": "Check her approach with fast mids."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range game. The better spacer wins."
+      }
+    ]
+  },
+  {
+    "name": "HITOMI",
+    "style": "Karate",
+    "tier": "A",
+    "slug": "hitomi",
+    "archetype": "straightforward all-rounder with clean fundamentals",
+    "range": "short to mid",
+    "strengths": [
+      "beginner-friendly tools",
+      "good mids",
+      "consistent combo paths",
+      "reliable pressure structure"
+    ],
+    "weaknesses": [
+      "less tricky than specialists",
+      "predictable without timing changes",
+      "needs good spacing to stay safe",
+      "can be outpaced by top-tier speed"
+    ],
+    "beginner": [
+      "main poke string",
+      "safe mid check",
+      "launcher into easy combo",
+      "throw after guard pressure"
+    ],
+    "advanced": [
+      "stagger timing mix",
+      "wall optimization",
+      "counter-hit confirms",
+      "pressure resets that bait holds"
+    ],
+    "strat": "Play honest, clean DOA. Make them guess in small pieces and snowball off stable confirms.",
+    "matchup_tip": "Against tricky characters, keep the game simple and force them to deal with your core mid/throw structure.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt and confirm tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential for stopping ducks."
+      },
+      {
+        "name": "4P (Back Fist)",
+        "notation": "4P",
+        "desc": "Counter-hit launcher. Use it to catch pressing opponents."
+      },
+      {
+        "name": "66K (Forward Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      },
+      {
+        "name": "H+K (Axe Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid with good damage. Wall splats."
+      },
+      {
+        "name": "236P (Hammer Punch)",
+        "notation": "236P",
+        "desc": "Powerful mid. Good for punishes."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (52 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Stagger Mix",
+        "route": "6P (blocked) > throw OR 6P > 6P (stagger)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (60 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Hayabusa",
+        "advice": "Force him to block your mids."
+      },
+      {
+        "vs": "Helena",
+        "advice": "Challenge her stance pressure with quick mids."
+      },
+      {
+        "vs": "Kasumi",
+        "advice": "Respect her speed. Use reliable mids."
+      },
+      {
+        "vs": "Jann Lee",
+        "advice": "Both want mid control. Focus on spacing."
+      }
+    ]
+  },
+  {
+    "name": "TINA",
+    "style": "Pro Wrestling",
+    "tier": "A",
+    "slug": "tina",
+    "archetype": "high-reward grappler with strong corner pressure",
+    "range": "short to mid",
+    "strengths": [
+      "huge throw damage",
+      "great stage carry",
+      "strong wall pressure",
+      "very scary after knockdown"
+    ],
+    "weaknesses": [
+      "needs openings to cash out",
+      "committal under pressure",
+      "struggles against patient keep-out",
+      "less effective without stage position"
+    ],
+    "beginner": [
+      "safe string into throw attempt",
+      "launcher into simple juggle",
+      "basic wall finisher",
+      "poke into spacing reset"
+    ],
+    "advanced": [
+      "command throw conditioning",
+      "launcher routing after stagger fear",
+      "stage-specific damage paths",
+      "delayed reset timing"
+    ],
+    "strat": "Make them afraid to block, then make them afraid to press. Once they freeze, the throw game opens up.",
+    "matchup_tip": "Use strikes to build hesitation, then drag them toward the wall where throws hurt most.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Interrupt and string starter."
+      },
+      {
+        "name": "236T (Giant Swing)",
+        "notation": "236T",
+        "desc": "Signature command throw. Massive damage, use after conditioning blocks."
+      },
+      {
+        "name": "46T (Mountain Bomb)",
+        "notation": "46T",
+        "desc": "Powerful throw with wall carry. Great near walls."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Running Kick)",
+        "notation": "66K",
+        "desc": "Approach tool. Use to close distance and start pressure."
+      },
+      {
+        "name": "H+K (High Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats for extended combos."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (45 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Giant Swing Setup",
+        "route": "6P (blocked) > 236T (55 dmg throw)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Throw",
+        "route": "Wall Splat > 46T (60 dmg throw)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Command Throw Mix",
+        "route": "Stagger > 236T OR 46T OR 6T",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > 236T (72 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Bayman",
+        "advice": "Mirror of grapplers. Focus on mid checks."
+      },
+      {
+        "vs": "Kasumi",
+        "advice": "Force her to respect your throw range."
+      },
+      {
+        "vs": "Bass",
+        "advice": "You are faster. Use that advantage."
+      },
+      {
+        "vs": "Leifang",
+        "advice": "Be careful with predictable strings."
+      }
+    ]
+  },
+  {
+    "name": "BAYMAN",
+    "style": "Combat Sambo",
+    "tier": "A",
+    "slug": "bayman",
+    "archetype": "heavy grappler who punishes impatient offense",
+    "range": "short to mid",
+    "strengths": [
+      "excellent throw damage",
+      "strong armored reads",
+      "great wall reward",
+      "very punishing on mistakes"
+    ],
+    "weaknesses": [
+      "slower than rushdown characters",
+      "can be chipped down if passive",
+      "needs reads to swing momentum",
+      "struggles with fast keep-out"
+    ],
+    "beginner": [
+      "safe mid check",
+      "launcher into easy route",
+      "simple throw punish",
+      "basic wall ender"
+    ],
+    "advanced": [
+      "armored callout routing",
+      "command throw layers",
+      "delayed low/mid resets",
+      "meter usage for round close"
+    ],
+    "strat": "Play patient, trade smart, and make every opening as expensive as possible.",
+    "matchup_tip": "Against fast characters, focus on mid checks and armored callouts until you force a big throw opportunity.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Primary interrupt tool."
+      },
+      {
+        "name": "236T (Power Throw)",
+        "notation": "236T",
+        "desc": "Command throw with massive damage. Use after conditioning."
+      },
+      {
+        "name": "4P+K (Armored Strike)",
+        "notation": "4P+K",
+        "desc": "Armored move that absorbs hits. Great for callouts."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Core neutral tool."
+      },
+      {
+        "name": "66K (Charging Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with forward momentum."
+      },
+      {
+        "name": "H+K (Side Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Armored Callout",
+        "route": "4P+K (absorb) > 236T (55 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Command Throw Chain",
+        "route": "Stagger > 236T (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > 236T (68 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use armored moves to absorb her fast checks."
+      },
+      {
+        "vs": "Tina",
+        "advice": "You have better armored options. Use them."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Respect his command throw. Use mids."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Stay patient against his kicks."
+      }
+    ]
+  },
+  {
+    "name": "RIG",
+    "style": "Taekwondo",
+    "tier": "A",
+    "slug": "rig",
+    "archetype": "mobile striker with strong mid-range kicks",
+    "range": "short to mid",
+    "strengths": [
+      "great poking structure",
+      "good movement",
+      "solid damage from clean starters",
+      "strong pressure rotation"
+    ],
+    "weaknesses": [
+      "checked by patient defense",
+      "some routes need precision",
+      "less rewarding when stuck blocking",
+      "can be predictable without timing changes"
+    ],
+    "beginner": [
+      "main poke string",
+      "safe mid launcher",
+      "basic air ender",
+      "throw after forcing guard"
+    ],
+    "advanced": [
+      "spacing traps with kick checks",
+      "stagger conversion routing",
+      "wall carry optimization",
+      "delayed timing resets"
+    ],
+    "strat": "Use range and tempo to control the fight, then launch when the opponent mistimes their defense.",
+    "matchup_tip": "Against grapplers, keep distance and make them chase your kicks before committing to close-range pressure.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Straight Punch)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral button."
+      },
+      {
+        "name": "4K (Spin Kick)",
+        "notation": "4K",
+        "desc": "Safe mid kick with excellent range. Wall splats."
+      },
+      {
+        "name": "66K (Axe Kick)",
+        "notation": "66K",
+        "desc": "Long-range approach kick. Good for closing distance."
+      },
+      {
+        "name": "236K (Tornado Kick)",
+        "notation": "236K",
+        "desc": "Powerful special mid. Good for punishes."
+      },
+      {
+        "name": "H+K (Hook Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Great for pressure."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (46 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Wall Carry Route",
+        "route": "Launcher > P > 4K > 66K > H+K (52 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4K > P > 6P > 66K (52 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 4K > H+K (55 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 4K > 66K (62 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use your range to keep her out."
+      },
+      {
+        "vs": "Jann Lee",
+        "advice": "Both mid-range fighters. The better spacer wins."
+      },
+      {
+        "vs": "Tina",
+        "advice": "Keep distance with kicks."
+      },
+      {
+        "vs": "Helena",
+        "advice": "Use mid kicks to challenge her stance pressure."
+      }
+    ]
+  },
+  {
+    "name": "HELENA",
+    "style": "Pi Qua Quan",
+    "tier": "A",
+    "slug": "helena",
+    "archetype": "elegant mix-up fighter with strong stance pressure",
+    "range": "short to mid",
+    "strengths": [
+      "excellent low/throw structure",
+      "strong stance transitions",
+      "powerful guard pressure",
+      "solid oki after knockdowns"
+    ],
+    "weaknesses": [
+      "needs reads to open turtles",
+      "predictable stance timing can be interrupted",
+      "some routes are execution-sensitive",
+      "can struggle against smothering offense"
+    ],
+    "beginner": [
+      "safe poke string",
+      "low check into pressure",
+      "basic launcher route",
+      "throw after plus frames"
+    ],
+    "advanced": [
+      "Bokuho stance pressure mix",
+      "delayed mid into launcher",
+      "wall routing for damage",
+      "timing resets that bait habits"
+    ],
+    "strat": "Layer your offense until the opponent stops pressing, then open them up with throws and delayed hits.",
+    "matchup_tip": "Against impatient players, rotate safe checks and low/mid layers until they freeze on defense.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "236P (Bokuho Entry)",
+        "notation": "236P",
+        "desc": "Enters Bokuho stance. Core mix-up entry point."
+      },
+      {
+        "name": "BOK P (Bokuho Mid)",
+        "notation": "BOK P",
+        "desc": "Mid attack from Bokuho. Good for opening up turtles."
+      },
+      {
+        "name": "BOK K (Bokuho Low)",
+        "notation": "BOK K",
+        "desc": "Low kick from Bokuho. Catches standing guards."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Rush Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Bokuho Mix",
+        "route": "236P > BOK P (mid) OR BOK K (low)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > 66K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Stance Cancel Route",
+        "route": "236P > cancel > throw (45 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (60 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use Bokuho stance to create ambiguity."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Respect his command throw."
+      },
+      {
+        "vs": "Hitomi",
+        "advice": "Layer your low/mid mix."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Stay mobile and do not let him armored read your transitions."
+      }
+    ]
+  },
+  {
+    "name": "ZACK",
+    "style": "Muay Thai",
+    "tier": "B",
+    "slug": "zack",
+    "archetype": "unorthodox pressure fighter with tricky rhythm",
+    "range": "short to mid",
+    "strengths": [
+      "very annoying rhythm changes",
+      "solid pressure tools",
+      "good mobility",
+      "reliable conversions"
+    ],
+    "weaknesses": [
+      "predictable if offense stays flashy",
+      "some options are risk-heavy",
+      "needs right timing to snowball",
+      "can struggle against patient mid-range play"
+    ],
+    "beginner": [
+      "main poke string",
+      "safe mid check",
+      "basic launcher combo",
+      "throw after pressure"
+    ],
+    "advanced": [
+      "rhythm change resets",
+      "delayed low/mid callouts",
+      "wall optimization routes",
+      "meter-efficient finishers"
+    ],
+    "strat": "Break their timing. Swing when they expect silence, and stall when they expect aggression.",
+    "matchup_tip": "Against disciplined opponents, mix fast checks with sudden pauses to force premature swings.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Primary interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Core neutral tool."
+      },
+      {
+        "name": "236P (Ducking Punch)",
+        "notation": "236P",
+        "desc": "Special mid that ducks under highs. Great for evasion."
+      },
+      {
+        "name": "66K (Flip Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with tricky angle."
+      },
+      {
+        "name": "4P (Back Fist)",
+        "notation": "4P",
+        "desc": "Counter-hit tool. Catches impatient opponents."
+      },
+      {
+        "name": "H+K (Spinning Heel)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (43 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (48 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Evasion Route",
+        "route": "236P (duck) > P > 6P > 66K (42 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (48 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (58 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use rhythm changes to break her timing."
+      },
+      {
+        "vs": "Bass",
+        "advice": "Stay mobile and annoying."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range with tricky approaches."
+      },
+      {
+        "vs": "Helena",
+        "advice": "Interrupt her stance pressure with fast checks."
+      }
+    ]
+  },
+  {
+    "name": "BASS",
+    "style": "Pro Wrestling",
+    "tier": "B",
+    "slug": "bass",
+    "archetype": "power grappler who thrives on big reads",
+    "range": "short to mid",
+    "strengths": [
+      "massive throw reward",
+      "strong armored callouts",
+      "great wall damage",
+      "very punishing when ahead"
+    ],
+    "weaknesses": [
+      "slower neutral tools",
+      "can be zoned by fast mid-range fighters",
+      "needs openings to cash out",
+      "struggles against patient defense"
+    ],
+    "beginner": [
+      "safe mid poke",
+      "launcher into simple finisher",
+      "basic throw pressure",
+      "wall ender route"
+    ],
+    "advanced": [
+      "armored read routing",
+      "command throw layers",
+      "stage-specific damage stacking",
+      "delayed reset conditioning"
+    ],
+    "strat": "Force respect with raw power, then punish hesitation with throws and big reads.",
+    "matchup_tip": "Against fast characters, play compact and look for armored moments or blocked punish situations.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Interrupt and string starter."
+      },
+      {
+        "name": "236T (Mega Fall)",
+        "notation": "236T",
+        "desc": "Command throw with massive damage. The reason people fear Bass."
+      },
+      {
+        "name": "4P+K (Clothesline)",
+        "notation": "4P+K",
+        "desc": "Armored strike. Absorbs hits and deals big damage."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Core neutral tool."
+      },
+      {
+        "name": "66K (Charging Shoulder)",
+        "notation": "66K",
+        "desc": "Approach tool with armor."
+      },
+      {
+        "name": "H+K (Big Boot)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (46 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Mega Fall Setup",
+        "route": "6P (blocked) > 236T (60 dmg throw)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Armored Callout",
+        "route": "4P+K (absorb) > 236T (65 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (52 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > 236T (75 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use armored moves to absorb her fast checks."
+      },
+      {
+        "vs": "Tina",
+        "advice": "Mirror match. You are slower but stronger."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Respect his command throw range."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Stay patient against his kicks."
+      }
+    ]
+  },
+  {
+    "name": "MILA",
+    "style": "MMA",
+    "tier": "B",
+    "slug": "mila",
+    "archetype": "MMA-based all-rounder with takedown pressure",
+    "range": "short to mid",
+    "strengths": [
+      "good ground-game threat",
+      "balanced offense and defense",
+      "consistent combo routes",
+      "solid close-range pressure"
+    ],
+    "weaknesses": [
+      "needs space control against long-range fighters",
+      "checked by patient mid keep-out",
+      "less explosive than top specialists",
+      "requires steady adaptation"
+    ],
+    "beginner": [
+      "poke into pressure",
+      "basic launcher route",
+      "simple throw attempt",
+      "basic wall ender"
+    ],
+    "advanced": [
+      "takedown conditioning",
+      "stagger conversion routing",
+      "delayed mid/low choices near wall",
+      "meter decisions for round control"
+    ],
+    "strat": "Play a practical MMA game: jab, wrestle, wall pin, and convert short bursts into big rounds.",
+    "matchup_tip": "Against evasion-heavy characters, stay measured and force them to defend real mid/throw mix-ups.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "236T (Takedown)",
+        "notation": "236T",
+        "desc": "Takedown throw that leads to ground game. Unique to Mila."
+      },
+      {
+        "name": "66K (Rushing Kick)",
+        "notation": "66K",
+        "desc": "Approach tool. Good for closing distance."
+      },
+      {
+        "name": "4P (Hook)",
+        "notation": "4P",
+        "desc": "Counter-hit tool. Catches pressing opponents."
+      },
+      {
+        "name": "H+K (Side Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (43 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Takedown Route",
+        "route": "6P (blocked) > 236T (48 dmg takedown)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (48 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Ground Game",
+        "route": "Takedown > mount strikes OR submission",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (58 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use practical MMA gameplan. Keep it simple."
+      },
+      {
+        "vs": "Bass",
+        "advice": "You are faster. Control the pace."
+      },
+      {
+        "vs": "Christie",
+        "advice": "Stay measured and force real mix-ups."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Match his grappling with takedowns."
+      }
+    ]
+  },
+  {
+    "name": "CHRISTIE",
+    "style": "She Quan",
+    "tier": "B",
+    "slug": "christie",
+    "archetype": "slippery mix-up fighter with strong stance transitions",
+    "range": "short to mid",
+    "strengths": [
+      "excellent stance pressure",
+      "strong low/mid rotation",
+      "hard to read in close range",
+      "solid wall carry"
+    ],
+    "weaknesses": [
+      "predictable timing can be interrupted",
+      "needs clean confirms to snowball",
+      "struggles against smothering fast offense",
+      "execution-sensitive optimizations"
+    ],
+    "beginner": [
+      "safe string into pressure",
+      "low check into reset",
+      "basic launcher route",
+      "throw after guard pressure"
+    ],
+    "advanced": [
+      "stance timing resets",
+      "delayed low into launcher",
+      "wall optimization for round close",
+      "rhythm manipulation to bait counters"
+    ],
+    "strat": "Make them uncomfortable with movement and stance pressure, then strike when they try to interrupt late.",
+    "matchup_tip": "Against grapplers, keep offense flowing and avoid letting them sit at throw range.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "236P (Snake Entry)",
+        "notation": "236P",
+        "desc": "Enters snake stance. Core mix-up entry point."
+      },
+      {
+        "name": "SNK P (Snake Mid)",
+        "notation": "SNK P",
+        "desc": "Mid attack from snake stance."
+      },
+      {
+        "name": "SNK K (Snake Low)",
+        "notation": "SNK K",
+        "desc": "Low kick from snake stance."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Sliding Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Snake Mix",
+        "route": "236P > SNK P (mid) OR SNK K (low)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > 66K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Stance Cancel Throw",
+        "route": "236P > cancel > throw (45 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (60 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use stance pressure to create ambiguity."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Do not let him grab you out of stance."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Keep offense flowing."
+      },
+      {
+        "vs": "Helena",
+        "advice": "Mirror of stance characters."
+      }
+    ]
+  },
+  {
+    "name": "KOKORO",
+    "style": "Ba Ji Quan",
+    "tier": "B",
+    "slug": "kokoro",
+    "archetype": "balanced martial artist with clean mid-range control",
+    "range": "short to mid",
+    "strengths": [
+      "consistent damage",
+      "very reliable mids",
+      "good pressure structure",
+      "easy to learn gameplan"
+    ],
+    "weaknesses": [
+      "less tricky than specialists",
+      "needs good spacing awareness",
+      "predictable without timing changes",
+      "can be outpaced by faster rushdown"
+    ],
+    "beginner": [
+      "main poke string",
+      "mid check into pressure",
+      "launcher into basic combo",
+      "throw after forced block"
+    ],
+    "advanced": [
+      "stagger timing into throw/mid reset",
+      "wall route optimization",
+      "counter-hit confirmation",
+      "safe pressure variations to bait habits"
+    ],
+    "strat": "Play a clean and efficient game where every hit builds toward a bigger confirm.",
+    "matchup_tip": "Against aggressive opponents, use disciplined mid checks before committing to big starters.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "4P (Palm Strike)",
+        "notation": "4P",
+        "desc": "Counter-hit tool with good range."
+      },
+      {
+        "name": "236P (Double Palm)",
+        "notation": "236P",
+        "desc": "Powerful mid. Good for punishes."
+      },
+      {
+        "name": "66K (Step-in Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      },
+      {
+        "name": "H+K (Side Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Stagger Mix",
+        "route": "6P (blocked) > throw OR 6P > 6P (stagger)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (60 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Respect her speed. Use reliable mids."
+      },
+      {
+        "vs": "Hitomi",
+        "advice": "Similar gameplans. Focus on spacing."
+      },
+      {
+        "vs": "Helena",
+        "advice": "Challenge her stance pressure with quick mids."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range with 66K and 236P."
+      }
+    ]
+  },
+  {
+    "name": "ELIOT",
+    "style": "Xing Yi Quan",
+    "tier": "B",
+    "slug": "eliot",
+    "archetype": "technical striker who rewards disciplined offense",
+    "range": "short to mid",
+    "strengths": [
+      "strong fundamentals",
+      "good punish tools",
+      "solid pressure strings",
+      "consistent combo reward"
+    ],
+    "weaknesses": [
+      "needs good execution",
+      "struggles against very fast rushdown",
+      "less explosive without clean starters",
+      "requires patience"
+    ],
+    "beginner": [
+      "safe string into mid check",
+      "launcher into standard finisher",
+      "throw after guard",
+      "basic wall ender"
+    ],
+    "advanced": [
+      "delayed pressure resets",
+      "optimized launcher routing",
+      "callout choices against predictable defense",
+      "meter management for closing rounds"
+    ],
+    "strat": "Play tight, punish clean, and build rounds from simple advantages rather than big gambles.",
+    "matchup_tip": "Against high-pressure characters, prioritize fast checks and controlled spacing before swinging back.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "4P (Back Fist)",
+        "notation": "4P",
+        "desc": "Counter-hit tool. Catches pressing opponents."
+      },
+      {
+        "name": "236P (Chain Punch)",
+        "notation": "236P",
+        "desc": "Powerful mid string. Good for punishes."
+      },
+      {
+        "name": "66K (Rush Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      },
+      {
+        "name": "H+K (Heel Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "String Pressure",
+        "route": "PP > 6P > 66K (38 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (60 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use fast checks to interrupt her approach."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Prioritize fast checks and controlled spacing."
+      },
+      {
+        "vs": "Hitomi",
+        "advice": "Both fundamental characters. Focus on clean confirms."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range with mid strings."
+      }
+    ]
+  },
+  {
+    "name": "LEIFANG",
+    "style": "Tai Chi Quan",
+    "tier": "B",
+    "slug": "leifang",
+    "archetype": "counter-focused defender who punishes greedy offense",
+    "range": "short to mid",
+    "strengths": [
+      "excellent counter tools",
+      "strong defensive reads",
+      "solid mid-range pokes",
+      "good reward on correct guesses"
+    ],
+    "weaknesses": [
+      "needs patience and timing",
+      "can be chipped down by safe offense",
+      "less smothering than pure rushdown",
+      "requires correct reads to score damage"
+    ],
+    "beginner": [
+      "safe poke string",
+      "basic counter attempt",
+      "launcher into easy route",
+      "throw after plus frames"
+    ],
+    "advanced": [
+      "counter timing layers",
+      "delayed mid resets to bait offense",
+      "optimized wall conversions",
+      "defensive spacing traps"
+    ],
+    "strat": "Let the opponent make the first mistake, then turn every wrong guess into real damage.",
+    "matchup_tip": "Against grapplers, force them to swing first so you can counter or punish before they reach throw range.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "4P+K (Counter Hold)",
+        "notation": "4P+K",
+        "desc": "Special counter that absorbs mid strikes. Core defensive tool."
+      },
+      {
+        "name": "66K (Step Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      },
+      {
+        "name": "4P (Palm Strike)",
+        "notation": "4P",
+        "desc": "Counter-hit tool with good reward."
+      },
+      {
+        "name": "H+K (Side Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter Route",
+        "route": "4P+K (counter) > P > 6P > 66K (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Defensive Punish",
+        "route": "Block > fastest string > 66K (35 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (60 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Hayabusa",
+        "advice": "Force him to swing first so you can counter."
+      },
+      {
+        "vs": "Kasumi",
+        "advice": "Use counter tools to punish her fast strings."
+      },
+      {
+        "vs": "Tina",
+        "advice": "Counter her strikes to create openings."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Use counters to beat his armored reads."
+      }
+    ]
+  },
+  {
+    "name": "BRAD WONG",
+    "style": "Drunken Fist",
+    "tier": "B",
+    "slug": "brad-wong",
+    "archetype": "unorthodox stance fighter with deceptive range and timing",
+    "range": "short to mid",
+    "strengths": [
+      "very tricky stance movement",
+      "annoying timing changes",
+      "solid counter-hit reward",
+      "good at forcing mistakes"
+    ],
+    "weaknesses": [
+      "committal on wrong reads",
+      "can be smothered by fast offense",
+      "needs matchup knowledge to shine",
+      "requires patience"
+    ],
+    "beginner": [
+      "main poke string",
+      "safe mid launcher",
+      "basic throw mix",
+      "simple wall ender"
+    ],
+    "advanced": [
+      "stance-based bait sequences",
+      "delayed low/mid callouts",
+      "counter-hit confirm optimization",
+      "stage-aware damage routing"
+    ],
+    "strat": "Play the rhythm game. Lure swings, miss-callouts, and capitalize when they guess wrong.",
+    "matchup_tip": "Against patient players, change tempo often instead of repeating the same spacing cues.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "236P (Drunken Punch)",
+        "notation": "236P",
+        "desc": "Special mid with deceptive range. Core stance entry."
+      },
+      {
+        "name": "4K (Stumble Kick)",
+        "notation": "4K",
+        "desc": "Tricky mid kick from drunken stance."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Sliding Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range."
+      },
+      {
+        "name": "H+K (Spinning Heel)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (42 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Drunken Mix",
+        "route": "236P > 4K (mid) OR 236K (low)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (48 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4K > P > 6P > 66K (48 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (56 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use drunken stance to disrupt her timing."
+      },
+      {
+        "vs": "Bass",
+        "advice": "Stay mobile and use stance movement."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range with tricky transitions."
+      },
+      {
+        "vs": "Hitomi",
+        "advice": "Change tempo often."
+      }
+    ]
+  },
+  {
+    "name": "LEON",
+    "style": "Combat Sambo",
+    "tier": "B",
+    "slug": "leon",
+    "archetype": "heavy bruiser who punishes mistakes with brutal counters",
+    "range": "short to mid",
+    "strengths": [
+      "high damage on correct reads",
+      "strong wall pressure",
+      "good armored options",
+      "very punishing from knockdowns"
+    ],
+    "weaknesses": [
+      "slower than fast roster characters",
+      "can be chipped by safe offense",
+      "needs openings to cash out",
+      "struggles when behind in tempo"
+    ],
+    "beginner": [
+      "safe mid check",
+      "launcher into simple combo",
+      "basic throw punish",
+      "wall ender route"
+    ],
+    "advanced": [
+      "armored callout routing",
+      "command throw pressure",
+      "timing resets near stage hazards",
+      "meter use for decisive rounds"
+    ],
+    "strat": "Play a pressure game built on respect. Once they hesitate, crush them with heavy starters.",
+    "matchup_tip": "Against fast characters, stay compact and bait mistakes before committing to big actions.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "236T (Power Throw)",
+        "notation": "236T",
+        "desc": "Command throw with high damage. Use after conditioning."
+      },
+      {
+        "name": "4P+K (Armored Strike)",
+        "notation": "4P+K",
+        "desc": "Armored move that absorbs hits. Great for callouts."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Charging Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with forward momentum."
+      },
+      {
+        "name": "H+K (Side Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (44 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Armored Callout",
+        "route": "4P+K (absorb) > 236T (55 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (50 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Command Throw Chain",
+        "route": "Stagger > 236T (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > 236T (68 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use armored moves to absorb her fast checks."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Mirror match. Focus on reads and punish game."
+      },
+      {
+        "vs": "Tina",
+        "advice": "You are slower but have better armored options."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Respect his command throw. Use mids."
+      }
+    ]
+  },
+  {
+    "name": "HAYATE",
+    "style": "Mugen Tenshin Ninjutsu",
+    "tier": "A",
+    "slug": "hayate",
+    "archetype": "balanced ninja with strong neutral tools",
+    "range": "short to mid",
+    "strengths": [
+      "good mid control",
+      "reliable combo routes",
+      "solid mobility",
+      "consistent wall pressure"
+    ],
+    "weaknesses": [
+      "needs openings against patient defense",
+      "checked by faster specialists",
+      "less tricky without timing changes",
+      "can be predictable without layering"
+    ],
+    "beginner": [
+      "main poke string",
+      "safe launcher",
+      "basic air route",
+      "throw after guard"
+    ],
+    "advanced": [
+      "whiff punish optimization",
+      "delayed stagger timing",
+      "wall route adjustments",
+      "meter-based finisher planning"
+    ],
+    "strat": "Play a solid neutral game, clip them with good starters, and carry them into wall pressure.",
+    "matchup_tip": "Against evasive characters, keep offense compact with mids and delayed timing adjustments.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "4P (Wind Blade)",
+        "notation": "4P",
+        "desc": "Counter-hit tool with good range."
+      },
+      {
+        "name": "66K (Rushing Kick)",
+        "notation": "66K",
+        "desc": "Approach tool with good range. Wall splats."
+      },
+      {
+        "name": "236P (Windmill)",
+        "notation": "236P",
+        "desc": "Powerful special mid. Good for punishes."
+      },
+      {
+        "name": "H+K (Spinning Kick)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Good for pressure."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (46 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Wall Carry",
+        "route": "Launcher > P > 6P > 66K > 6P (52 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (52 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > 66K (55 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K (62 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Respect her speed. Use mid control."
+      },
+      {
+        "vs": "Ayane",
+        "advice": "Keep offense compact with mids."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Brother mirror. Focus on spacing."
+      },
+      {
+        "vs": "Rig",
+        "advice": "Match his range with 66K and 4P."
+      }
+    ]
+  },
+  {
+    "name": "LISA",
+    "style": "La Mariposa",
+    "tier": "A",
+    "slug": "lisa",
+    "archetype": "flashy mix-up fighter with strong aerial and throw game",
+    "range": "short to mid",
+    "strengths": [
+      "very strong throw reward",
+      "good mix of high and low pressure",
+      "solid stage carry",
+      "flashy but practical routes"
+    ],
+    "weaknesses": [
+      "some starters are committal",
+      "checked by safe mid-heavy fighters",
+      "needs reads to close rounds cleanly",
+      "requires layering to beat patient guard"
+    ],
+    "beginner": [
+      "safe string into throw attempt",
+      "launcher into basic route",
+      "poke into reset",
+      "simple wall ender"
+    ],
+    "advanced": [
+      "command throw conditioning",
+      "delayed low/mid rotations",
+      "stage-specific damage stacking",
+      "rhythm changes to bait counters"
+    ],
+    "strat": "Use flair to create hesitation, then force them into throw/launcher decisions they do not want to make.",
+    "matchup_tip": "Against defensive players, layer throws and timing changes until they start pressing late.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "236T (La Mariposa Throw)",
+        "notation": "236T",
+        "desc": "Command throw with good damage. Core mix-up tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Butterfly Kick)",
+        "notation": "66K",
+        "desc": "Flashy approach tool with good range."
+      },
+      {
+        "name": "4P (Back Fist)",
+        "notation": "4P",
+        "desc": "Counter-hit tool. Catches pressing opponents."
+      },
+      {
+        "name": "H+K (Spinning Heel)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (45 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Command Throw Setup",
+        "route": "6P (blocked) > 236T (48 dmg throw)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (52 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Aerial Route",
+        "route": "Launcher > P > 6P > 66K > S! (50 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > 236T (65 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Use flair to create hesitation."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Both mix-up characters. Focus on reads."
+      },
+      {
+        "vs": "Tina",
+        "advice": "Match her throw game with your own."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Stay mobile and do not let him armored read you."
+      }
+    ]
+  },
+  {
+    "name": "ALPHA-152",
+    "style": "Modified Mugen Tenshin",
+    "tier": "A",
+    "slug": "alpha-152",
+    "archetype": "high-risk high-reward special fighter with explosive offense",
+    "range": "short to mid",
+    "strengths": [
+      "extremely explosive damage",
+      "strong pressure when ahead",
+      "dangerous comeback potential",
+      "very rewarding correct reads"
+    ],
+    "weaknesses": [
+      "less consistent than main roster characters",
+      "punished hard on wrong reads",
+      "needs momentum to dominate",
+      "requires careful risk management"
+    ],
+    "beginner": [
+      "safe mid check",
+      "launcher into simple route",
+      "basic throw mix",
+      "simple wall ender"
+    ],
+    "advanced": [
+      "optimized burst routing",
+      "meter-aware round management",
+      "stage-specific explosive combos",
+      "timing resets that force panic decisions"
+    ],
+    "strat": "Take smart swings and make every opening as dramatic as possible. When you are ahead, press hard.",
+    "matchup_tip": "Against stable all-rounders, avoid low-reward trades and look for decisive starters instead.",
+    "key_moves": [
+      {
+        "name": "P (Jab)",
+        "notation": "P",
+        "desc": "Fast i9 jab. Core interrupt tool."
+      },
+      {
+        "name": "6P (Elbow)",
+        "notation": "6P",
+        "desc": "Fast mid check. Essential neutral tool."
+      },
+      {
+        "name": "66K (Energy Kick)",
+        "notation": "66K",
+        "desc": "Powerful approach tool with high reward."
+      },
+      {
+        "name": "4P (Back Fist)",
+        "notation": "4P",
+        "desc": "Counter-hit tool with explosive damage."
+      },
+      {
+        "name": "236P (Energy Blast)",
+        "notation": "236P",
+        "desc": "Special mid with good range."
+      },
+      {
+        "name": "H+K (Spinning Heel)",
+        "notation": "H+K",
+        "desc": "Safe mid kick. Wall splats."
+      }
+    ],
+    "combo_routes": [
+      {
+        "name": "Basic BnB",
+        "route": "Launcher > P > 6P > 66K (48 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Counter-Hit Route",
+        "route": "CH 4P > P > 6P > 66K (55 dmg)",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Wall Combo",
+        "route": "Wall Splat > 6P > H+K (55 dmg)",
+        "difficulty": "Easy"
+      },
+      {
+        "name": "Burst Route",
+        "route": "Launcher > P > 4P > 66K > S! > 66K (62 dmg)",
+        "difficulty": "Hard"
+      },
+      {
+        "name": "Max Damage CB",
+        "route": "CB > 7K > P > 6P > 66K > S! > 66K (72 dmg)",
+        "difficulty": "Hard"
+      }
+    ],
+    "matchup_notes": [
+      {
+        "vs": "Kasumi",
+        "advice": "Avoid low-reward trades. Look for decisive starters."
+      },
+      {
+        "vs": "Bayman",
+        "advice": "Respect his armored options."
+      },
+      {
+        "vs": "Hayabusa",
+        "advice": "Both explosive. First big hit often wins."
+      },
+      {
+        "vs": "Hitomi",
+        "advice": "Force her to deal with your explosive offense."
+      }
+    ]
+  }
+]
