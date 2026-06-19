@@ -79,7 +79,16 @@
   </url>
   <url>
     <loc>https://deadoralive6guide.com/articles/doa6-last-round-tier-list.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://deadoralive6guide.com/articles/doa6-last-round-system-requirements.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deadoralive6guide.com/articles/doa6-last-round-frame-data-guide.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
