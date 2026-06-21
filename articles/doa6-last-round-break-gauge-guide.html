@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HFE9TN506X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-HFE9TN506X");
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOA6 Break Gauge Guide: Break Blows, Break Holds &amp; Fatal Rush Explained (2026)</title>
+<meta name="description" content="Complete DOA6 Last Round Break Gauge guide - how Break Blows, Break Holds, and Fatal Rush work, meter management strategies, frame data, and competitive tips.">
+<meta name="keywords" content="DOA6 Break Gauge, Dead or Alive 6 Break Blow, DOA6 Break Hold, DOA6 Fatal Rush, DOA6 Last Round break gauge guide, DOA6 meter management">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://deadoralive6guide.com/articles/doa6-last-round-break-gauge-guide.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+.article-wrap{max-width:820px;margin:0 auto;padding:6rem 1.5rem 4rem}
+.article-breadcrumb{font-family:var(--font-text);font-size:.85rem;color:var(--text-muted);margin-bottom:2rem;display:flex;gap:.5rem;flex-wrap:wrap}
+.article-breadcrumb a{color:var(--accent-cyan);text-decoration:none}.article-breadcrumb a:hover{color:var(--accent-red)}
+.article-meta{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:1.5rem;font-family:var(--font-text);font-size:.85rem;color:var(--text-muted)}
+.article-meta span{display:flex;align-items:center;gap:.3rem}
+.article-wrap h1{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;color:var(--text-bright);line-height:1.2;margin-bottom:1.5rem}
+.article-wrap h2{font-family:var(--font-display);font-size:clamp(1.2rem,2.5vw,1.8rem);font-weight:700;color:var(--accent-red);margin:2.5rem 0 1rem;letter-spacing:.03em;padding-top:1rem;border-top:1px solid rgba(230,57,70,.1)}
+.article-wrap h3{font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--text-bright);margin:1.5rem 0 .8rem}
+.article-wrap p{font-family:var(--font-text);font-size:1.05rem;color:var(--text-muted);line-height:1.9;margin-bottom:1.2rem}
+.article-wrap p.lead{font-size:1.15rem;color:var(--text-primary);line-height:1.8}
+.article-wrap ul,.article-wrap ol{font-family:var(--font-text);font-size:1.05rem;color:var(--text-muted);line-height:1.9;margin:0 0 1.2rem 1.5rem}
+.article-wrap li{margin-bottom:.4rem}
+.article-wrap strong{color:var(--text-primary)}
+.article-wrap a{color:var(--accent-cyan);text-decoration:none;border-bottom:1px solid rgba(0,240,255,.3);transition:border-color .3s}
+.article-wrap a:hover{color:var(--accent-red);border-color:var(--accent-red)}
+.wiki-table{width:100%;border-collapse:collapse;margin:2rem 0;font-family:var(--font-text)}
+.wiki-table th{text-align:left;padding:.8rem 1rem;font-family:var(--font-display);font-size:.75rem;letter-spacing:.15em;color:var(--accent-red);border-bottom:2px solid rgba(230,57,70,.2);background:var(--bg-card)}
+.wiki-table td{padding:.8rem 1rem;font-size:.95rem;color:var(--text-muted);border-bottom:1px solid rgba(230,57,70,.06)}
+.wiki-table tr:hover td{background:rgba(230,57,70,.03)}
+.wiki-table td:first-child{color:var(--text-primary);font-weight:600}
+.toc{background:var(--bg-card);border:1px solid rgba(230,57,70,.15);padding:1.5rem 2rem;margin:2rem 0;border-radius:4px}
+.toc h4{font-family:var(--font-display);font-size:.75rem;letter-spacing:.2em;color:var(--accent-red);margin-bottom:.8rem}
+.toc ol{font-family:var(--font-text);font-size:.95rem;color:var(--text-muted);line-height:2;margin:0;padding-left:1.2rem}
+.toc a{color:var(--accent-cyan);text-decoration:none}
+.toc a:hover{color:var(--accent-red)}
+.faq-section{background:var(--bg-card);border:1px solid rgba(230,57,70,.1);padding:2rem;margin:2rem 0;border-radius:4px}
+.faq-item{margin-bottom:1.5rem}.faq-item:last-child{margin-bottom:0}
+.faq-q{font-family:var(--font-body);font-weight:700;font-size:1.05rem;color:var(--text-bright);margin-bottom:.5rem}
+.faq-a{font-family:var(--font-text);font-size:.95rem;color:var(--text-muted);line-height:1.8}
+.article-share{display:flex;flex-wrap:wrap;gap:1rem;margin:2.5rem 0;padding:1.5rem 0;border-top:1px solid rgba(230,57,70,.1);border-bottom:1px solid rgba(230,57,70,.1)}
+.share-btn{font-family:var(--font-display);font-size:.6rem;letter-spacing:.1em;padding:.6rem 1.2rem;border:1px solid rgba(230,57,70,.2);background:var(--bg-card);color:var(--text-muted);cursor:pointer;transition:all .3s;text-decoration:none}
+.share-btn:hover{border-color:var(--accent-red);color:var(--accent-red);background:rgba(230,57,70,.05)}
+.related-articles{margin:3rem 0}.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;margin-top:1.5rem}
+.related-card{background:var(--bg-card);border:1px solid rgba(230,57,70,.1);padding:1.5rem;text-decoration:none;transition:all .3s}
+.related-card:hover{border-color:var(--accent-red);transform:translateY(-2px)}
+.related-card h4{font-family:var(--font-text);font-size:1rem;font-weight:700;color:var(--text-bright);margin-bottom:.5rem}
+.related-card p{font-size:.85rem;color:var(--text-muted);line-height:1.6}
+.pro-box{background:rgba(230,57,70,.08);border:1px solid rgba(230,57,70,.2);padding:1rem 1.5rem;margin:1rem 0;border-radius:4px}
+.pro-box strong{color:var(--accent-red)}
+.tip-box{background:rgba(0,240,255,.05);border:1px solid rgba(0,240,255,.15);padding:1rem 1.5rem;margin:1rem 0;border-radius:4px}
+.tip-box strong{color:var(--accent-cyan)}
+@media(max-width:768px){.article-wrap{padding:5rem 1rem 3rem}.wiki-table{font-size:.85rem}.wiki-table th,.wiki-table td{padding:.5rem}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is the Break Gauge in DOA6 Last Round?","acceptedAnswer":{"@type":"Answer","text":"The Break Gauge is a 4-segment resource meter powering Break Blow, Break Hold, and Fatal Rush."}},
+{"@type":"Question","name":"How do you use Break Blow in DOA6?","acceptedAnswer":{"@type":"Answer","text":"Press H+K with at least one full gauge segment. It is an unblockable charging attack with hyper armor."}},
+{"@type":"Question","name":"What is Break Hold and how does it work?","acceptedAnswer":{"@type":"Answer","text":"Press H during blockstun with one full gauge segment. Creates knockback to reset to neutral."}},
+{"@type":"Question","name":"How do you perform Fatal Rush?","acceptedAnswer":{"@type":"Answer","text":"Press 6PPP or 3PPP. Each hit consumes a quarter segment. The fourth hit launches for juggle combos."}}
+]}
+</script>
+</head>
+<body>
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">DOA6 LAST ROUND <span>ULTIMATE GUIDE</span></a>
+    <button class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../roster.html">ROSTER</a></li>
+      <li><a href="../combos.html">COMBOS</a></li>
+      <li><a href="../mechanics.html">MECHANICS</a></li>
+      <li><a href="../tier.html">TIER LIST</a></li>
+      <li><a href="../videos.html">VIDEOS</a></li>
+      <li><a href="../articles.html">ARTICLES</a></li>
+    </ul>
+  </div>
+</nav>
+<article class="article-wrap">
+  <nav class="article-breadcrumb">
+    <a href="../index.html">Home</a> / <a href="../articles.html">Articles</a> / <span>Break Gauge Guide</span>
+  </nav>
+  <div class="article-meta">
+    <span>June 22, 2026</span>
+    <span>14 min read</span>
+  </div>
+  <h1>DOA6 Last Round Break Gauge Guide: Break Blows, Break Holds &amp; Fatal Rush Explained</h1>
+  <p class="lead">The Break Gauge is the most important resource system in Dead or Alive 6 Last Round. Mastering it separates intermediate players from tournament contenders. This guide covers every mechanic powered by the Break Gauge with frame data, setups, and advanced meter management strategies.</p>
+  <div class="toc">
+    <h4>TABLE OF CONTENTS</h4>
+    <ol>
+      <li><a href="#basics">Break Gauge Basics</a></li>
+      <li><a href="#break-blow">Break Blow: Offensive Power</a></li>
+      <li><a href="#break-hold">Break Hold: Defensive Escape</a></li>
+      <li><a href="#fatal-rush">Fatal Rush: Combo Extender</a></li>
+      <li><a href="#meter">Meter Management Strategy</a></li>
+      <li><a href="#character">Character-Specific Strategies</a></li>
+      <li><a href="#punish">Punishing and Countering</a></li>
+      <li><a href="#drills">Practice Drills</a></li>
+      <li><a href="#faq">Frequently Asked Questions</a></li>
+    </ol>
+  </div>
+  <h2 id="basics">Break Gauge Basics</h2>
+  <p>The Break Gauge is the resource meter at the bottom of the screen, below your character health bar. It has four segments that fill as you interact with your opponent. Understanding gauge fill and spend is fundamental to DOA6 competitive play.</p>
+  <h3>How the Break Gauge Fills</h3>
+  <ul>
+    <li><strong>Landing attacks</strong> - Every successful hit builds gauge proportional to damage and properties.</li>
+    <li><strong>Taking damage</strong> - Being hit builds gauge at about 60% of the rate your opponent earns.</li>
+    <li><strong>Blocking attacks</strong> - Blocking fills a small amount, encouraging active defense.</li>
+    <li><strong>Time</strong> - The gauge passively fills very slowly over the round.</li>
+    <li><strong>Round start</strong> - Each round starts with about 10-15% of one segment.</li>
+  </ul>
+  <h3>Break Gauge Expenditure Table</h3>
+  <table class="wiki-table">
+    <thead><tr><th>Technique</th><th>Gauge Cost</th><th>Input</th><th>Primary Use</th></tr></thead>
+    <tbody>
+      <tr><td>Break Blow</td><td>1 full segment</td><td>H+K</td><td>Combo ender, stage transition, wall splat</td></tr>
+      <tr><td>Break Hold</td><td>1 full segment</td><td>H during blockstun</td><td>Defensive reversal, reset to neutral</td></tr>
+      <tr><td>Fatal Rush (full chain)</td><td>1 full segment (4 quarters)</td><td>6PPP or 3PPP</td><td>Safe combo extension</td></tr>
+    </tbody>
+  </table>
+  <div class="tip-box"><strong>KEY INSIGHT:</strong> The Break Gauge carries over between rounds. Any unused gauge persists to the next round. Conserving gauge in round 1 gives you an immediate advantage in round 2.</div>
+  <h2 id="break-blow">Break Blow: Offensive Power</h2>
+  <p>Break Blow is one of the most visually dramatic mechanics in DOA6 Last Round. Performed by pressing H+K with at least one full gauge segment, it is an unblockable charging attack that serves multiple offensive purposes.</p>
+  <h3>Break Blow Properties</h3>
+  <ul>
+    <li><strong>Unblockable</strong> - Cannot be blocked. Sidestep, backdash, or interrupt with a faster attack before armor activates.</li>
+    <li><strong>Hyper Armor</strong> - During startup, absorbs one hit. A powerful read tool against predictable pressure.</li>
+    <li><strong>Stage Travel</strong> - Carries the opponent across stage, triggering wall splats or transitions at boundaries.</li>
+    <li><strong>Combo Compatible</strong> - Can end launch combos for massive damage with stage interaction.</li>
+    <li><strong>Guard Break</strong> - Guard breaks a blocking opponent into crumple, allowing launcher follow-up.</li>
+  </ul>
+  <h3>Break Blow Frame Data</h3>
+  <table class="wiki-table">
+    <thead><tr><th>Property</th><th>Value</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Startup</td><td>22-26 frames</td><td>Varies by character</td></tr>
+      <tr><td>Active</td><td>4 frames</td><td>Hits frame 23-27 approximately</td></tr>
+      <tr><td>Recovery</td><td>30+ frames</td><td>Punishable if whiffed</td></tr>
+      <tr><td>Armor Start</td><td>Frame 8-10</td><td>Hyper armor active during startup</td></tr>
+      <tr><td>Damage</td><td>70-90 base</td><td>Bonus in combos or with stage transition</td></tr>
+    </tbody>
+  </table>
+  <h3>When to Use Break Blow</h3>
+  <ul>
+    <li><strong>Combo ender near a wall</strong> - End launch with Break Blow for wall splat, follow with pick-up combo.</li>
+    <li><strong>Stage transition confirm</strong> - Use near a transition point to force cinematic stage change.</li>
+    <li><strong>Read against predictable pressure</strong> - Armor through unsafe strings and punish.</li>
+    <li><strong>Round ender</strong> - Guaranteed closer when opponent has no gauge for Break Hold.</li>
+    <li><strong>Guard break pressure</strong> - Against blocking opponents, guard break into launcher follow-up.</li>
+  </ul>
+  <div class="pro-box"><strong>PRO TIP:</strong> Top players save Break Blow for stage transition setups. On stages like The Muscle or Unforgettable, a well-placed Break Blow near the transition point deals 70+ base damage, 80-120 from the transition, plus follow-up combo. Total damage can exceed 250.</div>
+  <h2 id="break-hold">Break Hold: Defensive Escape</h2>
+  <p>Break Hold is the defensive counterpart to Break Blow. Press H during blockstun with one full gauge segment to create explosive knockback that pushes both fighters to neutral range.</p>
+  <h3>Break Hold Properties</h3>
+  <ul>
+    <li><strong>Invincible Startup</strong> - Invincibility frames during startup allow escaping true blockstrings.</li>
+    <li><strong>Knockback</strong> - Pushes both fighters to neutral. Neither player has significant advantage.</li>
+    <li><strong>No Damage</strong> - Break Hold deals no damage. Its value is in escaping pressure.</li>
+    <li><strong>No Combo Follow-up</strong> - Unlike Break Blow, both fighters reset to neutral.</li>
+    <li><strong>Meter Dependent</strong> - Costs one full gauge segment.</li>
+  </ul>
+  <h3>When to Use Break Hold</h3>
+  <ul>
+    <li><strong>Escape corner pressure</strong> - Your most reliable escape tool when backed against a wall.</li>
+    <li><strong>Break multi-hit strings</strong> - Stops otherwise-safe pressure from characters like Hayabusa or Jann Lee.</li>
+    <li><strong>Avoid mix-up situations</strong> - Safely resets when opponent has you in a strike-throw mix-up near danger zones.</li>
+    <li><strong>Meter management check</strong> - An opponent with more meter can Break Blow through your Break Hold.</li>
+  </ul>
+  <h3>Break Hold Limitations</h3>
+  <ul>
+    <li><strong>Punishable if predicted</strong> - Opponent can delay their string and punish recovery with a launcher.</li>
+    <li><strong>Meter tax</strong> - Overusing defensive meter reduces your damage output.</li>
+    <li><strong>No damage</strong> - Unlike a successful hold or counter, it only resets to neutral.</li>
+    <li><strong>No reversal advantage</strong> - Neither player has frame advantage after Break Hold.</li>
+  </ul>
+  <div class="tip-box"><strong>COMPETITIVE TIP:</strong> A common beginner mistake is using Break Hold too early in a string. Wait for your opponent to commit to an unsafe ender, then Break Hold. Experienced players bait Break Hold and punish with delayed attacks.</div>
+  <h2 id="fatal-rush">Fatal Rush: Combo Extender</h2>
+  <p>Fatal Rush is a universal four-hit auto-combo performed by pressing 6PPP or 3PPP. Each hit consumes a quarter segment of the Break Gauge. It is beginner-friendly but has applications at every skill level.</p>
+  <h3>Fatal Rush Properties</h3>
+  <ul>
+    <li><strong>Safe on block</strong> - The full chain is safe. Last hit pushback creates distance.</li>
+    <li><strong>Natural combo</strong> - If the first hit connects, remaining hits are guaranteed. No holding between hits.</li>
+    <li><strong>Launcher ender</strong> - Fourth hit launches, allowing a follow-up juggle combo.</li>
+    <li><strong>Hit-grab</strong> - Third hit is an unescapable grab.</li>
+    <li><strong>Quarter-segment cost</strong> - Cancel after 1-3 hits to save gauge. Only performed hits cost meter.</li>
+  </ul>
+  <h3>Fatal Rush Frame Data</h3>
+  <table class="wiki-table">
+    <thead><tr><th>Hit</th><th>Damage</th><th>Gauge Cost</th><th>Properties</th></tr></thead>
+    <tbody>
+      <tr><td>1 (6P or 3P)</td><td>10-15</td><td>1/4 segment</td><td>Mid punch, standard startup</td></tr>
+      <tr><td>2 (6PP or 3PP)</td><td>10-15</td><td>1/4 segment</td><td>Mid punch, range extends</td></tr>
+      <tr><td>3 (6PPP or 3PPP)</td><td>20-25</td><td>1/4 segment</td><td>Hit-grab, unescapable</td></tr>
+      <tr><td>4 (ender)</td><td>25-35</td><td>1/4 segment</td><td>Launcher, sets up juggle</td></tr>
+      <tr><td>Total</td><td>65-90</td><td>1 full segment</td><td>Follow with juggle for 120+ total</td></tr>
+    </tbody>
+  </table>
+  <h3>Advanced Fatal Rush Techniques</h3>
+  <ul>
+    <li><strong>Fatal Rush cancel</strong> - Stop after 2 hits to spend half a gauge and reset pressure.</li>
+    <li><strong>Fatal Rush into Break Blow</strong> - First 3 hits into Break Blow for a meter-dump combo. Costs 1.75 gauge.</li>
+    <li><strong>Whiff punish</strong> - Good first hit range makes it an excellent whiff punish tool.</li>
+    <li><strong>Round ender</strong> - Confirms kill damage at low health without risk of dropped combos.</li>
+  </ul>
+  <h2 id="meter">Meter Management Strategy</h2>
+  <p>Effective Break Gauge management separates intermediate players from tournament-level fighters. Every gauge segment represents a decision.</p>
+  <h3>The 2-Segment Rule</h3>
+  <p>Never spend your last gauge segment unless it will win the round. Keeping at least one segment ensures Break Hold is available for emergency defense. Players who exhaust all meter become predictable.</p>
+  <h3>Meter Advantage Scenarios</h3>
+  <table class="wiki-table">
+    <thead><tr><th>Your Gauge</th><th>Opponent Gauge</th><th>Recommended Strategy</th></tr></thead>
+    <tbody>
+      <tr><td>3-4 segments</td><td>0-1</td><td>Aggressive - Break Blow combos safe since opponent cannot Break Hold punish</td></tr>
+      <tr><td>2 segments</td><td>2</td><td>Neutral - Focus on fundamentals; Break Hold for defense, save Break Blow for confirms</td></tr>
+      <tr><td>0-1 segments</td><td>2+</td><td>Defensive - Avoid corner pressure; opponent can Break Blow through defense</td></tr>
+      <tr><td>0 segments</td><td>4</td><td>Survival - One mistake leads to a full meter-dump combo</td></tr>
+    </tbody>
+  </table>
+  <h3>Round-to-Round Meter Planning</h3>
+  <ul>
+    <li><strong>Round 1</strong> - Generate gauge through extended exchanges. End with 2+ segments for round 2 advantage.</li>
+    <li><strong>Round 2 with lead</strong> - Go offensive when you have 2+ segments and opponent has 0-1.</li>
+    <li><strong>Round 2 with deficit</strong> - Play defensively and build gauge. Avoid corners.</li>
+    <li><strong>Final round</strong> - Spend everything. Full meter-dump combos are appropriate.</li>
+  </ul>
+  <div class="pro-box"><strong>PRO TIP:</strong> Watch your opponent gauge as closely as your own. When an opponent has 2+ segments and you are cornered, expect Break Blow. Sidestep on prediction to punish the whiffed recovery.</div>
+  <h2 id="character">Character-Specific Break Gauge Strategies</h2>
+  <table class="wiki-table">
+    <thead><tr><th>Character</th><th>Best Gauge Use</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Kasumi</td><td>Break Blow combos</td><td>Fast approach and teleport mix-ups create easy setups</td></tr>
+      <tr><td>Hayabusa</td><td>Break Blow + transition</td><td>Excellent wall carry; Break Blow near any wall leads to massive damage</td></tr>
+      <tr><td>Jann Lee</td><td>Fatal Rush pressure</td><td>Dragon Stance + Fatal Rush for extended pressure and frame traps</td></tr>
+      <tr><td>Bass</td><td>Break Hold defense</td><td>Grapplers need Break Hold to escape wall pressure</td></tr>
+      <tr><td>Christie</td><td>Fatal Rush whiff punish</td><td>Long-range normals + Fatal Rush reach create easy whiff punishes</td></tr>
+      <tr><td>Bayman</td><td>Break Hold + counter</td><td>Defensive style benefits from reserving meter for escapes</td></tr>
+      <tr><td>Hitomi</td><td>Balanced usage</td><td>Well-rounded toolkit benefits from all three gauge mechanics</td></tr>
+      <tr><td>Marie Rose</td><td>Break Blow setups</td><td>Unique parries create whiff scenarios for guaranteed Break Blow damage</td></tr>
+    </tbody>
+  </table>
+  <h2 id="punish">Punishing and Countering Break Gauge Usage</h2>
+  <h3>Punishing Break Blow</h3>
+  <ul>
+    <li><strong>Sidestep punish</strong> - Sidestep on startup, punish with launcher into full combo.</li>
+    <li><strong>Backdash whiff punish</strong> - Backdash just outside range, then dash in during recovery.</li>
+    <li><strong>Armor break moves</strong> - Some characters have multi-hit moves that hit through hyper armor.</li>
+    <li><strong>Throw punish</strong> - Command throws can grab through Break Blow startup before armor activates.</li>
+  </ul>
+  <h3>Countering Break Hold</h3>
+  <ul>
+    <li><strong>Delay your string</strong> - Insert brief delay in blockstring. Their Break Hold whiffs, you punish.</li>
+    <li><strong>Gauge bait</strong> - Use safe string ender; if they Break Hold, delay to catch recovery.</li>
+    <li><strong>Challenge reset</strong> - Use longest-range poke to challenge the neutral after Break Hold.</li>
+  </ul>
+  <h3>Fatal Rush Counter-Play</h3>
+  <ul>
+    <li><strong>Sidestep after block</strong> - Last hit pushback creates a gap. Sidestep after blocking.</li>
+    <li><strong>Punish canceled Fatal Rush</strong> - Early cancel (1-2 hits) leaves them vulnerable. Use fastest attack.</li>
+    <li><strong>Hold prediction</strong> - Third hit is a hit-grab; some characters can predict and counter timing.</li>
+  </ul>
+  <h2 id="drills">Practice Drills</h2>
+  <ol>
+    <li><strong>Break Blow Combo Drill</strong> - Launch -> aerial combo -> Break Blow -> pick-up. 10 reps per side.</li>
+    <li><strong>Break Hold Escape Drill</strong> - Block 2 hits -> Break Hold -> punish. Against 3 characters.</li>
+    <li><strong>Fatal Rush Confirmation Drill</strong> - Confirm Fatal Rush on hit vs stop on block.</li>
+    <li><strong>Meter Management Drill</strong> - Play vs CPU tracking both gauges. Practice 2-segment rule.</li>
+    <li><strong>Break Blow Sidestep Punish Drill</strong> - Sidestep CPU Break Blows and punish. Repeat until automatic.</li>
+  </ol>
+  <div class="tip-box"><strong>DAILY PRACTICE:</strong> 10 min daily: 3 min Break Blow combos, 3 min Break Hold escapes, 2 min Fatal Rush confirms, 2 min meter awareness.</div>
+  <h2 id="faq">Frequently Asked Questions</h2>
+  <div class="faq-section">
+    <div class="faq-item">
+      <div class="faq-q">What is the Break Gauge in DOA6 Last Round?</div>
+      <div class="faq-a">A 4-segment resource meter powering Break Blow, Break Hold, and Fatal Rush. Fills by landing attacks, taking damage, blocking, and passively over time.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How do you use Break Blow in DOA6?</div>
+      <div class="faq-a">Press H+K with at least one full gauge segment. Unblockable charging attack with hyper armor that causes wall splats and stage transitions.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What is Break Hold?</div>
+      <div class="faq-a">Press H during blockstun with one full gauge. Creates knockback that pushes both fighters apart, escaping pressure and resetting to neutral.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How do you perform Fatal Rush?</div>
+      <div class="faq-a">Press 6PPP or 3PPP. Each of four hits costs a quarter segment. Fourth hit launches for juggle combo follow-up.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How many segments does the Break Gauge have?</div>
+      <div class="faq-a">Four segments. Break Blow and Break Hold cost one each. Fatal Rush costs one quarter per hit.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Does Break Gauge carry over between rounds?</div>
+      <div class="faq-a">Yes. Only the small starting base resets each round. Meter conservation between rounds is strategic.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can Break Blow be blocked?</div>
+      <div class="faq-a">No. Defensive options are sidestep, backdash, interrupt before armor, or trade with your own Break Blow.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is Fatal Rush the same for every character?</div>
+      <div class="faq-a">Input is universal but animations, range, and damage vary slightly between characters.</div>
+    </div>
+  </div>
+  <div class="article-share">
+    <span class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank')">X / TWITTER</span>
+    <span class="share-btn" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank')">FACEBOOK</span>
+    <span class="share-btn" onclick="window.open('https://www.reddit.com/submit?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'_blank')">REDDIT</span>
+    <span class="share-btn" onclick="navigator.clipboard.writeText(location.href);this.textContent='COPIED!';setTimeout(()=>this.textContent='COPY LINK',2000)">COPY LINK</span>
+  </div>
+  <div class="related-articles">
+    <h2>RELATED GUIDES</h2>
+    <div class="related-grid">
+      <a href="../mechanics.html" class="related-card"><h4>Game Mechanics</h4><p>Triangle System, Critical Burst, Break Gauge, and advanced techniques.</p></a>
+      <a href="doa6-last-round-frame-data-guide.html" class="related-card"><h4>Frame Data Guide</h4><p>Startup frames, advantage, safe moves, and punishment basics.</p></a>
+      <a href="doa6-last-round-beginners-guide.html" class="related-card"><h4>Beginner Guide</h4><p>Triangle System, character picks, combos, and practice routines.</p></a>
+    </div>
+  </div>
+</article>
+<footer>
+  <div class="footer-logo">DOA6 LAST ROUND - ULTIMATE GUIDE</div>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../roster.html">Roster</a>
+    <a href="../combos.html">Combos</a>
+    <a href="../mechanics.html">Mechanics</a>
+    <a href="../tier.html">Tier List</a>
+    <a href="../videos.html">Videos</a>
+    <a href="../sitemap.xml">Sitemap</a>
+  </div>
+  <p class="footer-copy">DEAD OR ALIVE 6 LAST ROUND Ultimate Guide &copy; <span id="copyright-year"></span></p>
+  <p class="footer-disclaimer">This is a fan-made strategy guide and is not affiliated with KOEI TECMO.</p>
+</footer>
+<script src="../js/main.js"></script>
+<script>document.getElementById('copyright-year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
