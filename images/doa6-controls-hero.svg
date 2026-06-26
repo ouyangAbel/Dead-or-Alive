@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e63946"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.15" stroke="#00f0ff" stroke-width="1">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200"/>
+    <path d="M100 0V630M200 0V630M300 0V630M400 0V630M500 0V630M600 0V630M700 0V630M800 0V630M900 0V630M1000 0V630M1100 0V630"/>
+  </g>
+  <circle cx="860" cy="315" r="200" fill="none" stroke="url(#accent)" stroke-width="8" opacity="0.5"/>
+  <circle cx="860" cy="315" r="150" fill="none" stroke="#e63946" stroke-width="4" opacity="0.35"/>
+  <g fill="#ffffff" opacity="0.95">
+    <circle cx="820" cy="265" r="22" fill="#e63946"/>
+    <circle cx="900" cy="265" r="22" fill="#00f0ff"/>
+    <circle cx="820" cy="345" r="22" fill="#00f0ff"/>
+    <circle cx="900" cy="345" r="22" fill="#e63946"/>
+    <rect x="750" y="300" width="40" height="12" rx="4" fill="#ffffff" opacity="0.8"/>
+    <rect x="810" y="300" width="40" height="12" rx="4" fill="#ffffff" opacity="0.8"/>
+    <rect x="870" y="300" width="40" height="12" rx="4" fill="#ffffff" opacity="0.8"/>
+    <rect x="930" y="300" width="40" height="12" rx="4" fill="#ffffff" opacity="0.8"/>
+    <polygon points="640,295 655,310 640,325" fill="#ffffff"/>
+    <polygon points="690,275 705,290 690,305" fill="#ffffff" transform="rotate(-90 697 290)"/>
+    <polygon points="640,265 655,280 640,295" fill="#ffffff" transform="rotate(90 647 280)"/>
+    <polygon points="610,295 625,310 610,325" fill="#ffffff" transform="rotate(180 617 310)"/>
+  </g>
+  <text x="80" y="210" font-family="Orbitron, Rajdhani, sans-serif" font-size="72" fill="#ffffff" font-weight="900">CONTROLS</text>
+  <text x="80" y="300" font-family="Orbitron, Rajdhani, sans-serif" font-size="44" fill="#ffffff" font-weight="700">DEFAULT LAYOUT</text>
+  <text x="80" y="355" font-family="Orbitron, Rajdhani, sans-serif" font-size="28" fill="#00f0ff">NOTATION + MAPPING + CONTROLLER TIPS</text>
+  <text x="80" y="560" font-family="Rajdhani, Exo 2, sans-serif" font-size="24" fill="#ffffff" opacity="0.72">DOA6 LAST ROUND ULTIMATE GUIDE</text>
+</svg>
