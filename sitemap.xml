@@ -138,7 +138,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <!-- Guides -->
+
+  <url>
+    <loc>https://deadoralive6guide.com/articles/doa6-last-round-beginner-characters.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>  <!-- Guides -->
   <url>
     <loc>https://deadoralive6guide.com/guides/</loc>
     <changefreq>monthly</changefreq>
