@@ -227,8 +227,9 @@ footer{background:var(--bg-deep);border-top:1px solid rgba(230,57,70,.1);padding
   .combo-char-btn{flex:1;min-width:120px;text-align:center}
 }
 @media(max-width:768px){
-  .nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:rgba(8,8,12,.95);flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(230,57,70,.2);z-index:9999}
+  .nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:rgba(8,8,12,.98);flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(230,57,70,.2);z-index:9999;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
   .nav-links.open{display:flex}
+  .nav-links a{font-size:.8rem;padding:.75rem 0}
   .nav-toggle{display:flex}
   .info-grid{grid-template-columns:1fr}
   .roster-grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
